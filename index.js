@@ -63,6 +63,11 @@ function factorial(num) {
   return resultado;
 }
 
+// Función para calcular el exponente de un número
+function exponente(base, exp) {
+  return Math.pow(base, exp);
+}
+
 // Función principal del programa
 function calculadora() {
   var opcion = prompt(
