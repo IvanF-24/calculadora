@@ -68,6 +68,14 @@ function exponente(base, exp) {
   return Math.pow(base, exp);
 }
 
+// Función para calcular la raíz cuadrada de un número
+function raizCuadrada(num) {
+  if (num < 0) {
+    return "Error: No se puede calcular la raíz cuadrada de un número negativo";
+  }
+  return Math.sqrt(num);
+}
+
 // Función principal del programa
 function calculadora() {
   var opcion = prompt(
